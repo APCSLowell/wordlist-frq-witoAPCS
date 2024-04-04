@@ -12,9 +12,10 @@ public class WordList
   {
     /* to be implemented in part (a) */
     public int balls = 0;
-    for(int i = 0; i < myList.size(); i++){
-     if(myList.get(i).length() == len) balls++;
-    }
+    for(int i = 0; i < myList.size(); i++)
+     if(myList.get(i).length() == len) 
+       balls++;
+    
     return balls;
   }
 
