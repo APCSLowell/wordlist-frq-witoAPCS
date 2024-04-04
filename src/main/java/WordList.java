@@ -19,14 +19,16 @@ public class WordList
     return balls;
   }
 
-  public void removeWordsOfLength(int len)
+  
+public void removeWordsOfLength(int len){
+  int i = 0; 
+  
+  while (i < myList.size())
   {
-    /* to be implemented in part (b) */
-   int balls = 0; 
-    while( balls < myList.size()){
-    if (myList.get(i).length() == len)
-      myList.remove(i); 
-    }
+    if(myList.get(i).length() == len)
+    myList.remove(i); 
     else i++;
   }
+}
+  
 }
